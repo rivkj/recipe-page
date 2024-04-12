@@ -10,7 +10,7 @@
     },
     {
       "id": "2",
-      "title": "Pollo a la brasa",
+      "title": "Pollo a la Brasa",
       "image": "cilantro-sauce.jpg",
       "time": 45,
       "description": "Roasted and juicy chicken thighs paired with a spicy green salsa.",
@@ -18,27 +18,27 @@
     },
     {
       "id": "3",
-      "title": "Shrimp spring rolls",
+      "title": "Shrimp Spring Rolls",
       "image": "shrimp-rolls.jpg",
       "time": 30,
       "description": "Light and flavorful spring rolls that combines spice with variation of veggies.",
       "marination": "None required - defrosting of shrimp needed if not fresh."
     },
     {
-      "id":
-      "title":
-      "image":
-      "time":
-      "description":
-      "marination":
+      "id": "4",
+      "title": "Chicken Tikka Masala",
+      "image": "masala-chicken",
+      "time": "60",
+      "description": "Savory, restaurant style curry paired with naan and rice when eating at home sounds better.",
+      "marination": "2 hours minimum - overnight needed for maximum flavor absorption."
     },
     {
-      "id":
-      "title":
-      "image":
-      "time":
-      "description":
-      "marination":
+      "id": "5",
+      "title": "Creamy Tuscan Chicken",
+      "image": "tuscan-chicken.jpeg",
+      "time": 60,
+      "description": "Creamy Italian style tomato and chicken pasta with added veggies.",
+      "marination": "None required."
     }
   ]
 }
