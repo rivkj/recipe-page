@@ -1,0 +1,44 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Za'atar Chicken",
+      "image": "zaatar-chicken-tumeric.jpg",
+      "time": 45,
+      "description": "Savory and spicy mediterranean inspired rice and chicken.",
+      "marination": "2 hours minimum - overnight needed for maximum flavor absorption."
+    },
+    {
+      "id": "2",
+      "title": "Pollo a la brasa",
+      "image": "cilantro-sauce.jpg",
+      "time": 45,
+      "description": "Roasted and juicy chicken thighs paired with a spicy green salsa.",
+      "marination": "2 hours minimum - overnight needed for maximum flavor absorption."
+    },
+    {
+      "id": "3",
+      "title": "Shrimp spring rolls",
+      "image": "shrimp-rolls.jpg",
+      "time": 30,
+      "description": "Light and flavorful spring rolls that combines spice with variation of veggies.",
+      "marination": "None required - defrosting of shrimp needed if not fresh."
+    },
+    {
+      "id":
+      "title":
+      "image":
+      "time":
+      "description":
+      "marination":
+    },
+    {
+      "id":
+      "title":
+      "image":
+      "time":
+      "description":
+      "marination":
+    }
+  ]
+}
