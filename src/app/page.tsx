@@ -24,6 +24,9 @@ async function getRecipes(): Promise<Recipe[]> {
     cache: "no-cache",
   });
 
+  //delay response
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+
   return result.json();
 }
 
