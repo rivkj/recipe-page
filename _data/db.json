@@ -27,9 +27,9 @@
     {
       "id": "4",
       "title": "Chicken Tikka Masala",
-      "image": "masala-chicken",
+      "image": "masala-chicken.jpeg",
       "time": 60,
-      "description": "Savory, restaurant style curry paired with naan and rice when eating at home sounds better.",
+      "description": "Savory, restaurant style curry paired with garlic naan and rice when eating at home sounds better.",
       "marination": true
     },
     {

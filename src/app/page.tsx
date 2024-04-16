@@ -21,21 +21,26 @@ interface Recipe {
 }
 
 async function getRecipes(): Promise<Recipe[]> {
-  const result = await fetch('http://localhost:4001/recipes')
+  const result = await fetch('http://localhost:4001/recipes', { cache: "no-cache"})
 
   return result.json()
 }
 
 export default async function Home() {
   const recipes = await getRecipes()
-  // console.log("Recipes array:", recipes);
+  console.log("Recipes array:", recipes);
   return (
     <main>
        <div className="grid grid-cols-3 gap-4">
        {recipes.map(recipe => (
           <Card key={recipe.id} className="flex flex-col justify-between">
             <CardHeader className="flex-row gap-4 items-center">
-              { /*avatar */ }
+              <Avatar> 
+                <AvatarImage src={` /img/${recipe.image}`} alt="Recipe image"/>
+                <AvatarFallback>
+                  {recipe.title.slice(0,2)}
+                </AvatarFallback>
+              </Avatar>
               <div>
                 <CardTitle>{recipe.title}</CardTitle>
                 <CardDescription>{recipe.time} mins to cook.</CardDescription>
