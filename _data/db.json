@@ -6,7 +6,7 @@
       "image": "zaatar-chicken-tumeric.jpg",
       "time": 45,
       "description": "Savory and spicy mediterranean inspired rice and chicken.",
-      "marination": "2 hours minimum - overnight needed for maximum flavor absorption."
+      "marination": true
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "image": "cilantro-sauce.jpg",
       "time": 45,
       "description": "Roasted and juicy chicken thighs paired with a spicy green salsa.",
-      "marination": "2 hours minimum - overnight needed for maximum flavor absorption."
+      "marination": true
     },
     {
       "id": "3",
@@ -22,15 +22,15 @@
       "image": "shrimp-rolls.jpg",
       "time": 30,
       "description": "Light and flavorful spring rolls that combines spice with variation of veggies.",
-      "marination": "None required - defrosting of shrimp needed if not fresh."
+      "marination": false
     },
     {
       "id": "4",
       "title": "Chicken Tikka Masala",
       "image": "masala-chicken",
-      "time": "60",
+      "time": 60,
       "description": "Savory, restaurant style curry paired with naan and rice when eating at home sounds better.",
-      "marination": "2 hours minimum - overnight needed for maximum flavor absorption."
+      "marination": true
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "image": "tuscan-chicken.jpeg",
       "time": 60,
       "description": "Creamy Italian style tomato and chicken pasta with added veggies.",
-      "marination": "None required."
+      "marination": false
     }
   ]
 }
