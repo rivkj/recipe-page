@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Within this project, I created a page for all the recipes I use that work for me and have been tweaked for personal use. There are many sites and books that display recipes but not all work or are lacking, therefore I compiled a list of recipes that I have tried, are true and have persisted in my own kitchen. Credits will be given to where they came from, if none are found, personal making is the credit.
+
 ## Getting Started
 
 First, run the development server:
